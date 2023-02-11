@@ -1,0 +1,46 @@
+name: '📚 Documentation Issue'
+description: Report issues in our documentation
+title: '[Documentation]: '
+labels:
+    - 'Type: Documentation'
+    - 'Status: Unconfirmed'
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thanks for taking the time to fill out this documentation issue report for the BTDclient! Fill out the following form to your best ability to help us fix the documentation issue and improve our client.
+              Only use this if you're absolutely sure that you found a documentation issue and know what information you are sharing.
+              For anything else, use: our Discord server (Coming Soon) or [our website](https://btdstudios.github.io/).
+
+    - type: textarea
+      attributes:
+          label: Provide a description of requested documentation changes
+          placeholder: Add a short description which file needs to be changed and why.
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Screenshots / Videos
+          description: If applicable, add screenshots to your request.
+
+    - type: textarea
+      attributes:
+          label: Contact details
+          description: You can provide information how to contact you for further information. Note that the contact information can be seen by everyone.
+
+    - type: checkboxes
+      attributes:
+          label: Checklist
+          description: Make sure you have followed each of the steps displayed here.
+          options:
+              - label: I have included the required information.
+                required: true
+              - label: I have searched through the list of opened issues and last commits if the feature or enhancement has already been implemented.
+                required: true
+
+    - type: textarea
+      attributes:
+          label: Anything else?
+          description: You can provide additional context below.

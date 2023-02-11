@@ -1,0 +1,9 @@
+{
+    "required": true,
+    "package": "io.github.btdstudios.headowneradditions.version_specific.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "mixins.refmap.json",
+    "minVersion": "0.7",
+    "mixins": [
+    ]
+}

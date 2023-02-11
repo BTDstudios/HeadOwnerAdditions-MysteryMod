@@ -1,0 +1,60 @@
+ame: '⭐ Feature or enhancement request'
+description: Suggest an idea or enhancement for this project.
+title: '[Feature/Enhancement]: '
+labels:
+    - 'Type: Enhancement'
+    - 'Status: /'
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+            Thanks for taking the time to fill out this feature or enhancement request for the BTDclient! Fill out the following form to your best ability to help us understand your request and improve our client.
+            Only use this if you're absolutely sure that you found a bug, can reproduce it and know what information you are sharing.
+            For anything else, use: our Discord server (Coming Soon) or [our website](https://btdstudios.github.io/).
+
+    - type: textarea
+      attributes:
+          label: Clear description of the new feature / enhancement
+          placeholder: What is the expected behavior of the suggested feature / enhancement?
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Screenshots / Videos
+          description: If applicable, add screenshots to your request.
+
+    - type: textarea
+      attributes:
+          label: Scenario when this would be used?
+          placeholder: What is the scenario this would be used? Why is this important to your gameplay?
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Are there any alternatives?
+          description: List any alternatives you might have tried
+
+    - type: textarea
+      attributes:
+          label: Contact details
+          description: You can provide information how to contact you for further information. Note that the contact information can be seen by everyone.
+
+    - type: checkboxes
+      attributes:
+          label: Checklist
+          description: Make sure you have followed each of the steps displayed here.
+          options:
+             - label: I have included the required information.
+               required: true
+             - label: I have searched through the list of opened issues and last commits if the feature or enhancement has already been implemented.
+               required: true
+             - label: I have only included one request in this issue.
+               required: true
+
+    - type: textarea
+      attributes:
+          label: Anything else?
+          description: You can provide additional context below.

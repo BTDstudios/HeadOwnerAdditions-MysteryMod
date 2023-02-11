@@ -1,0 +1,10 @@
+{
+    "name": "HeadOwner-Additions",
+    "version": "1.0.0",
+    "description": "This is an addon as replacement for the HeadOwner feature built into MysteryMod. This addon can copy the name to clipboard or just print it out to the in-game chat in an high customizable message.\nSupport: Discord - jo#1081",
+    "authors": [
+        "BlockyTheDev",
+        "BTDstudios (Development-Group)"
+    ],
+    "mainClass": "io.github.btdstudios.headowneradditions.HeadOwnerAdditions"
+}

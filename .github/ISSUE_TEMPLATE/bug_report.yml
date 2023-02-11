@@ -1,0 +1,121 @@
+name: '🕷️ Bug report'
+description: Create a report to help us improve our product.
+title: '[Bug]: '
+labels:
+    - 'Type: Bug'
+    - 'Status: Unconfirmed'
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thanks for taking the time to fill out this bug report for the BTDclient! Fill out the following form to your best ability to help us fix the problem.
+              Only use this if you're absolutely sure that you found a bug, can reproduce it and know what information you are sharing.
+              For anything else, use: our Discord server (Coming soon) or [our website](https://btdstudios.github.io/).
+              Do NOT use the public issue tracker or public channels on Discord to report security vulnerabilities! They are disclosed using our ticket system on our Discord server (Coming soon) form!
+
+    - type: dropdown
+      attributes:
+          label: Environment
+          description: Which environment are you using? If your environment is not listed, it is not supported. Switch to a supported environment first.
+          multiple: false
+          options:
+              - FabricMC
+      validations:
+          required: true
+
+    - type: dropdown
+      attributes:
+          label: Environment Version
+          description: Which environment version you using? If your environment version is not listed, it is not supported. Switch to a supported environment version first.
+          multiple: true
+          options:
+              - '1.19.3'
+      validations:
+          required: true
+
+    - type: dropdown
+      attributes:
+          label: Installation method
+          description: How did you install our client?
+          multiple: false
+          options:
+              - 'Auto-Updater'
+              - 'Installer'
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Describe the bug
+          description: A clear and concise description of what the bug is.
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Steps to reproduce
+          description: We highly suggest including screenshots or videos.
+          placeholder: |
+              1. Go to '...'
+              2. Click on '...'
+              3. Scroll down to '...'
+              4. See error
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Expected behaviour
+          description: A clear and concise description of what you expected to happen.
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Screenshots / Videos
+          description: If applicable, add screenshots to help explain your problem.
+
+    - type: input
+      attributes:
+          label: Error log (if applicable)
+          description: If you are reporting a console error, upload any relevant log sections related to the bug as file or to https://gist.github.com (Save it and paste the link in the following box). Do not upload your full log to a public place.
+
+    - type: input
+      attributes:
+          label: Debug information
+          description: Copy the debug information in the settings page and provide the copied text.
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Client Version
+          description: What version of our client are you running?
+          placeholder: "For example: BTDclient 1.2.3-SNAPSHOT"
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+        label: Contact details
+        description: You can provide information how to contact you for further information. Note that the contact information can be seen by everyone.
+
+    - type: input
+      attributes:
+          label: Anything else?
+          description: You can provide additional content below.
+
+    - type: checkboxes
+      attributes:
+          label: Checklist
+          description: Make sure you have followed each of the steps displayed here.
+          options:
+              - label: I have included the debug information.
+                required: true
+              - label: I am using the newest build from https://btdstudios.github.io/ and the issue still persists.
+                required: true
+              - label: I have searched through the list of opened issues and last commits if the bug is fixed.
+                required: true
+              - label: I have only included one bug in this issue.
+                required: true
