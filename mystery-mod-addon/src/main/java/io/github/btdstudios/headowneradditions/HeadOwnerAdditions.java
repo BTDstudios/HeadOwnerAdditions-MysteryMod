@@ -79,6 +79,3 @@ public class HeadOwnerAdditions extends Addon {
         }
     }
 }
-
-// TODO Integrate PopUp like in Raw MysteryMod HeadOwner
-// TODO Add A GUI, which displays the Head in the middle like in LabyMod-Addon Forengötter
