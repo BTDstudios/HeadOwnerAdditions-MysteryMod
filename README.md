@@ -7,9 +7,11 @@ MysteryMod Addon - HeadOwnerAdditions
 [Discord (Coming Soon)]() |
 [YouTube](https://youtube.com/@BTDstudios-official)
 
-HeadOwnerAdditions is a free and open-source highly customisable addon as an alternative or extension to the HeadOwner feature implemented in MysteryMod.
-<br>
-=> The addition to the official addon download menu was already requested on (!)`12.06.2022`(!), but is still waiting for acceptance.
+**HeadOwnerAdditions is a free and open-source highly customisable addon as an alternative or extension to the HeadOwner feature implemented in MysteryMod.**
+
+## Notes
+- **The addition to the official addon download menu was already requested on (!)`12.06.2022`(!), but is still waiting for acceptance.**
+- Newer MysteryMod versions cannot be supported, as MysteryMod decided against publishing further addon apis for developers `:(`.
 
 ## Issues
 If you notice any bugs or missing features, you can let us know by opening an issue
